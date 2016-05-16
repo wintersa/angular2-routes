@@ -24,6 +24,8 @@
   },
   "files": [
     "./dev/app.component.ts",
-    "./dev/boot.ts"
+    "./dev/boot.ts",
+    "./dev/component1.component.ts",
+    "./dev/component2.component.ts"
   ]
 }
