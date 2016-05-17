@@ -19,7 +19,7 @@ import {ROUTER_DIRECTIVES} from 'angular2/router';
 })
 
 @RouteConfig([
-    {path: '/component-1/:source', name: 'Component1', component: Component1Component, useAsDefault: true},
+    {path: '/component-1/:source/...', name: 'Component1', component: Component1Component},
     {path: '/component-2', name: 'Component2', component: Component2Component}
 
 ])

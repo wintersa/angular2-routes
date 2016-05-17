@@ -3,7 +3,7 @@ import {Router} from 'angular2/router';
 
 @Component({
     template: `
-        <h2>This is component 2<h2>
+        <h1>This is component 2<h1>
         <button (click)="onNavigate()">Take me to Component 1</button>
     `
 })
